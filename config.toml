@@ -1,0 +1,18 @@
+baseURL = "https://the1900.github.io/pinktalk-website"
+
+languageCode = "ko"
+defaultContentLanguage = "ko"
+
+# For Github Page
+publishDir = "docs"
+
+
+[languages.ko]
+title = "핑크톡"
+[languages.ko.params]
+    copyright = "두원이"
+
+[languages.en]
+title = "PinkTalk"
+[languages.en.params]
+    copyright = "Doowonee"

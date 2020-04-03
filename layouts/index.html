@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.homepage.test }}
+<h2>{{ . }}</h2>
+<P>{{ i18n "go_back" }}</P>
+{{ end }}
+
+{{ end }}

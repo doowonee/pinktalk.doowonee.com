@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Title }}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+  
+  <link rel="shortcut icon" href="{{ `logos/favicon.ico` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `logos/favicon.ico` | absURL }}" type="image/x-icon">
+</head>
