@@ -3,6 +3,9 @@ baseURL = "https://pinktalk.doowonee.com"
 languageCode = "ko"
 defaultContentLanguage = "ko"
 
+# ignore src vanilla bundeld scss, ts
+ignorefiles = [ "src/.*" ]
+
 [languages.ko]
 title = "핑크톡"
 [languages.ko.params]

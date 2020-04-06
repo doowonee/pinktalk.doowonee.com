@@ -5,6 +5,10 @@
 {{ with $data.homepage.test }}
 <h2>{{ . }}</h2>
 <P>{{ i18n "go_back" }}</P>
+<button class="foo-button mdc-button">
+  <div class="mdc-button__ripple"></div>
+  <span class="mdc-button__label">Button</span>
+</button>
 {{ end }}
 
 {{ end }}
