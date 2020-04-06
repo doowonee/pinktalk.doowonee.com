@@ -3,10 +3,6 @@ baseURL = "https://pinktalk.doowonee.com"
 languageCode = "ko"
 defaultContentLanguage = "ko"
 
-# For Github Page
-publishDir = "docs"
-
-
 [languages.ko]
 title = "핑크톡"
 [languages.ko.params]
