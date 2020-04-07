@@ -1,1 +1,3 @@
-<script src="bundle.js" async></script>
+{{ range .Site.Params.js_list }}
+<script src="{{ .link }}"></script>
+{{ end }}
