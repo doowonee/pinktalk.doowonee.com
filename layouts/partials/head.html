@@ -15,4 +15,6 @@
   {{ range .Site.Params.css_list }}
   <link rel="stylesheet" href="{{ .link }}">
   {{ end }}
+  {{ $styles := resources.Get "app.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
 </head>

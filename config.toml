@@ -7,8 +7,6 @@ defaultContentLanguage = "ko"
 link = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
 [[params.css_list]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css"
-[[params.css_list]]
-link = "app.css"
 
 [[params.js_list]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
@@ -23,9 +21,10 @@ link = "app.js"
 
 [languages.ko]
 title = "핑크톡"
+
 [languages.ko.params]
     copyright = "두원이"
-
+    
 [languages.en]
 title = "PinkTalk"
 [languages.en.params]
