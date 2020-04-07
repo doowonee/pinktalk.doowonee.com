@@ -1,0 +1,23 @@
+.my-article-header{
+  text-align: center;
+  padding: 2rem;
+  
+  img {
+    max-width: 160px;
+    border-radius: 4px;
+    background-color: $color-primary;
+    @include mobile {
+      max-width: 128px;
+    }
+  }
+  
+  h2 {
+    margin-top: 2rem;
+  }
+}
+
+.release_date {
+  text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}

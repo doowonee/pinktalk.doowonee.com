@@ -1,8 +1,17 @@
 @import 'color.scss';
 @import 'appbar.scss';
+@import 'media-query.scss';
+@import 'markdown.scss';
+@import 'single.scss';
+
+html {
+  font-size: 16px;
+  @include mobile {
+    font-size: 14px;
+  }
+}
 
 body {
   background-color: $color-background;
   color: $color-text-high;
 }
-

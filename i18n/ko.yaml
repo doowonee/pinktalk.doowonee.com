@@ -1,2 +1,4 @@
 - id: go_back
   translation: 돌아가기
+- id: release_date
+  translation: 공고 및 시행 날짜

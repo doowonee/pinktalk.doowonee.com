@@ -1,0 +1,22 @@
+.markdown {
+  p {
+    color: $color-text-normal;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  pre {
+    font-family: monospace;
+  }
+  
+  a {
+    color: $color-text-high;
+    &:hover {
+      color: $color-primary
+    }
+  }
+}
+

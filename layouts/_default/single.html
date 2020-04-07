@@ -1,5 +1,16 @@
 {{ define "main" }}
-
-{{ .Content }}
-
+<article class="container">
+	<header class="my-article-header">
+		<img src="/logo.png">
+		<h2>{{ .Title }}</h1>
+	</header>
+	<div class="markdown">
+		{{ .Content }}
+	</div>
+	{{ with .Params.release_date }}
+		<footer class="release_date">
+			{{ i18n "release_date" }}: {{ . }}
+		</footer>
+	{{ end }}
+</article>
 {{ end }}

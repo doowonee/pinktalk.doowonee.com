@@ -1,5 +1,5 @@
 #my-appbar {
-  padding: .5rem 4rem;
+  // padding: .5rem 4rem;
   background-color: $appbar-background-color;
   font-weight: normal;
   color: $color-text-high;
@@ -7,9 +7,12 @@
 
 .navbar-dark {
   .navbar-brand {
-    color: $color-text-high;
+    color: $color-primary;
   }
 } 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
   color: $color-text-high;
+  &:hover {
+    color: $color-primary;
+  }
 }

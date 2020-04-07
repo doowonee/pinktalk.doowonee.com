@@ -29,3 +29,10 @@ title = "핑크톡"
 title = "PinkTalk"
 [languages.en.params]
     copyright = "Doowonee"
+
+# https://gohugo.io/getting-started/configuration-markup/#table-of-contents
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1

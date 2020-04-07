@@ -1,6 +1,7 @@
 // https://material.io/develop/android/theming/dark/
 $color-background: #121212;
 $appbar-background-color: #1F1F1F;
-$color-text-high: #DEFFFFFF;
-$color-text-normal: #99FFFFFF;
-$color-text-weak: #61FFFFFF;
+$color-text-high: rgba(255, 255, 255, 0.87);
+$color-text-normal: rgba(255, 255, 255, 0.60);
+$color-text-weak: rgba(255, 255, 255, 0.38);
+$color-primary: #f48fb1;
