@@ -2,13 +2,16 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ with $data.homepage.test }}
-<h2>{{ . }}</h2>
-<P>{{ i18n "go_back" }}</P>
-<button class="foo-button mdc-button">
-  <div class="mdc-button__ripple"></div>
-  <span class="mdc-button__label">Button</span>
-</button>
-{{ end }}
-
+<article class="container">
+  <header class="my-article-header">
+    <img src="/logo.png">
+		<h2>{{ .Site.Title }}</h1>
+    </header>
+    {{ range $data.homepage.headlines }}
+    <h1 class="headlines">
+      {{ . }}
+    </h1>
+    {{ end }}
+    <footer style="height: 300px;"></footer>
+</article>
 {{ end }}
