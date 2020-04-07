@@ -12,6 +12,4 @@ https://github.com/peaceiris/actions-gh-pages/blob/master/src/main.ts 보면 cna
 
 # 개발 방식
 
-Hugo는 `src` 폴더를 무시하고 Webpack은 `src` 폴더 안에 주어진 css와 ts들을 각각 컴파일 뭐 트랜스파일링 하고 `static` 폴더에 위치시킨다. 그럼 Hugo는 그냥 그대로 이걸 사용하면 됌
-
-https://github.com/material-components/material-components-web/blob/master/docs/getting-started.md 를 사용할것이며 Sass와 Typescript를 사용한다.
+https://mdbootstrap.com CDN을 사용하고 npm 의존성 없이 Hugo Extended 버전으로 SCSS를 사용한다. 현재 아이콘은 사용 설정 안되어있음
