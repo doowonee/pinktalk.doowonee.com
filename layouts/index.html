@@ -36,5 +36,13 @@
     </div>
   </div>
   {{ end }}
+  {{ range $index, $element := $data.homepage.get_download }}
+  <div class="row p-3">
+    <h2 style="line-height: 124px; display: block; width: 100%; text-align: center;">{{ $element.title }}</h3>
+    <a href='{{ $element.url }}' style="margin: 0 auto;">
+      <img alt='Get it on Google Play' src='{{ $element.img }}' style="max-width: 320px;" />
+    </a>
+  </div>
+  {{ end }}
 </article>
 {{ end }}

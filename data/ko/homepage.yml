@@ -8,3 +8,8 @@ contents:
   - img: "ss-memo-kor.png"
     title: "메모 기능으로 익명의 상대를 기억하세요"
     content: "목소리로만 누구인지 기억할 필요 없어요"
+
+get_download:
+  - img: "play_store_download.png"
+    url: "https://play.google.com/store/apps/details?id=com.doowonee.pinktalk"
+    title: "지금 다운로드 하세요"
