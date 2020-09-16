@@ -19,7 +19,7 @@
     </header>
     {{ range $index, $element := $data.homepage.contents }}
     <div class="row py-3">
-      {{ if (mod $index 2) eq 0}}
+      {{ if eq (mod $index 2) 0}}
       <!-- 홀수 번째는 md 이상일 경우 그림과 글 순서를 바꾼다 -->
       <div class="col-md-6">
       {{else}}
