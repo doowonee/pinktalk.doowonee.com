@@ -11,31 +11,30 @@
     </div>
     <div class="col-md-6">
       <!-- 와 padding 위아래 주고 md일때 margin top 왼쪽 텍스트 정렬 태그로 스타일 다 지정하네 ㄷㄷ -->
-      <h2 class="py-4 mt-md-3 text-center text-md-left my-line-height">
+      <h2 class="py-4 mt-md-3 text-center text-md-left">
         목소리로 즐기는 익명
         <br> 랜덤 채팅 <span class="my-brand">{{ .Site.Title }}</span>
       </h2>
     </div>
-    </header>
-    {{ range $index, $element := $data.homepage.contents }}
-    <div class="row py-3">
-      {{ if eq (mod $index 2) 0}}
-      <!-- 홀수 번째는 md 이상일 경우 그림과 글 순서를 바꾼다 -->
-      <div class="col-md-6">
-      {{else}}
-      <div class="col-md-6 order-md-1">
-      {{ end }}
-        <div class="py-4 text-center">
-          <img src="{{ $element.img }}" class="img-fluid px-5">
-        </div>
-      </div>
-      <div class="col-md-6 d-flex">
-        <div class="py-4" style="align-self: center; max-width: 347px;">
-          <h2 class="my-line-height">{{ $element.title }}</h3>
-          <p class="mt-3 my-line-height">{{ $element.content }}</p>
-        </div>
+  </header>
+  {{ range $index, $element := $data.homepage.contents }}
+  <div class="row py-3">
+    {{ if eq (mod $index 2) 1 }}
+    <!-- 홀수 번째는 md 이상일 경우 그림과 글 순서를 바꾼다 -->
+    <div class="col-md-6">
+    {{ else }}
+    <div class="col-md-6 order-md-1">
+    {{ end }}
+    <div class="text-center">
+      <img src="{{ $element.img }}" class="img-fluid screenshot">
+    </div>
+    </div>
+    <div class="col-md-6 pk-text">
+      <h2>{{ $element.title }}</h3>
+      <p class="mt-3">{{ $element.content }}</p>
       </div>
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
 </article>
 {{ end }}

@@ -1,7 +1,10 @@
 contents:
-  - img: "plot_page.png"
+  - img: "ss-stories-kor.png"
     title: "전 세계 다양한 사람들과 이야기 해보세요"
     content: "핑크톡은 오직 목소리로만 대화할수 있어요"
-  - img: "story_page.png"
+  - img: "ss-sent-kor.png"
     title: "닉네임은 랜덤으로 생성 되요"
-    content: "우리 서로를 존중하면서 이야기 해보아요"
+    content: "우리 서로를 존중하면서 이야기 해요"
+  - img: "ss-memo-kor.png"
+    title: "메모 기능으로 익명의 상대를 기억하세요"
+    content: "목소리로만 누구인지 기억할 필요 없어요"
