@@ -21,12 +21,13 @@ link = "app.js"
 
 [languages.ko]
 title = "핑크톡"
-
+languageName = "Korean"
 [languages.ko.params]
     copyright = "두원이"
     
 [languages.en]
 title = "PinkTalk"
+languageName = "English"
 [languages.en.params]
     copyright = "Doowonee"
 

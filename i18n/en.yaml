@@ -1,2 +1,4 @@
 - id: go_back
   translation: Go Back
+- id: release_date
+  translation: Notification & Enforcement Date

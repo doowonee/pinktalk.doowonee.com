@@ -50,3 +50,10 @@ h1, h2, p {
     margin-top: 32px;
   }
 }
+
+.pk-languages {
+  margin-right: 1rem;
+  &:hover {
+    color: $color-primary;
+  }
+}

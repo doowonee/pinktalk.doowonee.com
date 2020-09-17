@@ -1,5 +1,10 @@
 <footer class="page-footer">
   <div class="footer-copyright text-center py-3">&copy; {{ now.Format "2006"}} Copyright:
     <a href="https://pinktalk.doowonee.com">{{ .Site.Params.copyright }}</a>
+    <div class="mt-3">
+      {{ range .Site.Languages }}
+      <span><a href="{{ .Lang | absURL }}" class="pk-languages waves-light p-2">{{ .LanguageName }}</a></span>
+      {{ end }}
+    </div>
   </div>
 </footer>

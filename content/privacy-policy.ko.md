@@ -27,4 +27,4 @@ release_date: "2020-04-07"
 핑크톡은 이용자가 회원 탈퇴할 경우 그 즉시 수집한 개인정보인 Email 주소를 삭제 합니다.
 
 # 6. 개인정보보호 담당자 정보 및 관련 기관 연락처
-메일 주소: the1900.me@gmail.com
+메일 주소: doowonee.com@gmail.com
